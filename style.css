@@ -1,0 +1,219 @@
+html
+{
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+}
+body
+{
+    font-family: sans-serif;
+}
+.nave
+{
+    z-index: 999999;
+}
+a{
+    color: fff;
+    text-decoration: none;
+}
+.header
+{
+    font-size: 33px;
+    height: 100vh;
+   background-image: url(img/img/img/bg.jpg);
+   background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    z-index: 999999999;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.conten
+{
+    text-align: center;
+    font-weight: 100;
+}
+.conten::after
+{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 9s ;
+    animation-iteration-count: infinite;
+}
+@keyframes typing    
+{
+    0%{    content: " |";}
+    2%{    content: " D|";}
+    4%{    content: "  De|";}
+    6%{    content: " Des|";}
+    8%{    content: " Desi|";}
+    10%{    content: " Desig|";}
+    12%{    content: " Design|";}
+    14%{    content: " Designe|";}
+    16%{    content: " Designer|";}
+    18%{    content: " Designe|";}
+    20%{    content: " Design|";}
+    22%{    content: "Desig|";}
+    24%{    content: " Desi|";}
+    26%{    content: " Des|";}
+    28%{    content: "De|";}
+    34%{    content: "  De|";}
+    36%{    content: " Dev|";}
+    38%{    content: " Deve|";}
+    40%{    content: " Devel|";}
+    42%{    content: " Develo|";}
+    44%{    content: " Develop|";}
+    45%{    content: " Develope|";}
+    46%{    content: " Developer|";}
+    47%{    content: " Develope|";}
+    48%{    content: "Develop|";}
+    49%{    content: " Develo|";}
+    50%{    content: " Devel|";}
+    51%{    content: "Deve|";}
+    52%{    content: " Dev|";}
+    53%{    content: " De|";}
+    54%{    content: "D|";}
+    55%{    content: " |";}
+    56%{    content: "  L|";}
+    57%{    content: " La|";}
+    58%{    content: " Lar|";}
+    59%{    content: " Larr|";}
+    60%{    content: " Larry|";}
+    61%{    content: " Larry |";}
+    62%{    content: " Larry  D|";}
+    63%{    content: " Larry  Da|";}
+    64%{    content: " Larry  Dan|";}
+    65%{    content: "Larry  Dani|";}
+    66%{    content: " Larry  Danie|";}
+    67%{    content: " Larry  Daniel|";}
+    68%{    content: "Larry  Daniels|";}
+    69%{    content: " Larry  Daniel|";}
+    70%{    content: " Larry  Danie|";}
+    71%{    content: " FLarry  Dani|";}
+    72%{    content: " Larry  Dan|";}
+    73%{    content: "  Larry  Da|";}
+    74%{    content: "Larry  D|";}
+    75%{    content: " Larry  |";}
+    76%{    content: " Larry|";}
+    77%{    content: " Larr|";}
+    85%{    content: " Lar|";}
+    80%{    content: " La|";}
+    90%{    content: " L|";}
+    100%{    content: " |";}
+}
+.list-ico
+{
+    list-style: none;
+}
+.ico-circle
+{
+    border: solid 1px rgba(0, 0, 0, 0.1) ;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    
+}
+.proge
+{
+    height: 5%;
+    border-radius: 10px;
+    
+}
+.icon-lest
+{
+    color: black; 
+    background-color: rgb(236, 236, 236);
+    margin: 10px auto;
+    padding: 20px;
+    width: 80px;
+    height: 80px; 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px white;
+    border-radius: 50%;
+    transition: 1s;
+}
+.icon-lest:hover
+{
+    color: white;
+    background-color: black;
+    box-shadow: 100%;
+}
+.layar-item
+{
+    position: relative;
+    overflow: hidden;
+}
+.layar2
+{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    left: 0px; 
+    height: 100%;
+    top: 100%;
+    transition: top 0.5s;
+    z-index: 2;
+    border: solid 4px lightgray;
+}
+.layar-item:hover .layar2
+{
+    top: 0;
+}
+.icon-item
+{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.lest-form
+{
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+    
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.img
+{
+    overflow: hidden;
+    transition: transform 1s;
+}
+.item-lets:hover
+{
+    transform: scale( 1.4 , 1.5 );
+}
+.style-new
+{
+    margin: auto;
+    width: 20%;
+    text-align:  center;
+    border-style: dashed;
+    border: dashed 2px lightgrey;
+}
